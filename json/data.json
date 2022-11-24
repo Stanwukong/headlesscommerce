@@ -5,7 +5,7 @@
 						"name":"Auth",
 						"slug":"authentication",
 						"services":[{"id":"ckfe60zeg056h0107ui2x8yn5"},{"id":"ckfe62ki0056o0150ipmpglcr"},{"id":"ckiats0sw0pyj0952z0sycoqy"}]
-						},
+					    },
 					   {"id":"ckf3nukko0e3p0108b85vv560",
 					   "name":"Communication",
 					   "slug":"communication",
