@@ -37,7 +37,7 @@ const Tools = () => {
 			</div>
 		</div>
 	  );
-	  return <ul className='grid gap-4 grid-cols-1 p-6 md:grid-cols-2 md:gap-7'>{tool}</ul>;
+	  return <ul className='grid gap-4 grid-cols-1 p-6 md:grid-cols-2 md:gap-7 lg:grid-cols-3'>{tool}</ul>;
 	}
 export default Tools;
 
