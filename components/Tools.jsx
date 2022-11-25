@@ -7,13 +7,14 @@ const Tools = () => {
 	
 
 	  const tool = tools.map(tool =>
-		<div className=''>
-			<div className='group shadow-sm bg-[#fff] border relative border-gray-200 text-gray-400 p-7 rounded-lg justify-center hover:bg-gradient-to-r from-red-600 to-purple-500 w-[100%] h-[100%]'>
-	
+		<div className='group shadow-sm bg-[#fff] relative border-gray-200 text-gray-400 p-7 rounded-md justify-center hover:bg-gradient-to-r from-red-700 to-purple-700 w-[100%] h-[100%] hover:opacity-50'>
+			
+			<div className=''>
+				<div className=''>
 					<Link href={tool.url}>	
 						<a href="#" className='absolute top-3 right-3'>
 								{tool.tag.map(target => (
-								<span className='rounded-xl group-hover:bg-transparent bg-gray-100 text-gray-400 text-[12px] px-2 py-1 ml-2 '>{target}</span>))}
+								<span className='rounded-xl group-hover:bg-transparent group-hover:text-white group-hover:border group-hover:border-white bg-gray-100 text-gray-400 text-[12px] px-2 py-1 ml-2 '>{target}</span>))}
 						</a>
 						
 						<div className='flex flex-col items-center mt-7'>
@@ -33,7 +34,7 @@ const Tools = () => {
 							<button>Visit</button>
 						</div>
 					</Link>
-				
+				</div>
 			</div>
 		</div>
 	  );
