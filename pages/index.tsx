@@ -16,7 +16,7 @@ export default function Home() {
 			<div className="lg:px-60">
 				<Navbar />
 			</div>
-			<div className="bg-[#f9fafb]">
+			<div className="bg-[#f9fafb] ">
 				<Filter />
 				
 				<div className="pb-10 lg:px-60">
