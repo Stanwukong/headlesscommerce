@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar"
@@ -6,6 +7,20 @@ import Tools from "../components/Tools"
 import Footer from "../components/Footer"
 
 export default function Home() {
+
+
+	const apiSRC = '../Json/categories.json'
+	
+	function pullJson() {
+		
+		return
+	}
+
+	useEffect(() => {
+		pullJson()
+
+	}, [])
+
 	return ( 
 		<div className="">
 			<Head>
